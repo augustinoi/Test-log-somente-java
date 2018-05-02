@@ -31,6 +31,8 @@ public class lerArquivo {
             buff.close();
         }
         catch (FileNotFoundException ex) {
+            System.out.println("Arquivo não encontrado: " + ex.getMessage () );
+        
         }
         catch (IOException er)
         {

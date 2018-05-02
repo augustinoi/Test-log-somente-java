@@ -5,6 +5,7 @@
  */
 package Aplicativo;
 
+import Arquivos.escreverArquivo;
 import Arquivos.lerArquivo;
 
 /**
@@ -14,6 +15,7 @@ import Arquivos.lerArquivo;
 public class Main {
     
     public Main() {
+        //escreverArquivo esc = new escreverArquivo();
         lerArquivo leia = new lerArquivo();
     }
     public static void main (String args[])

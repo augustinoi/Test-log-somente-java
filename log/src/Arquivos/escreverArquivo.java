@@ -19,14 +19,17 @@ public class escreverArquivo {
 
     FileWriter fileR;
     BufferedWriter buff;
+
     public escreverArquivo() {
-       
+
         try {
             fileR = new FileWriter("arquivo.txt");
-            buff = new BufferedWriter (fileR);
-                    }
-        catch (IOException ex) 
-        {
+            buff = new BufferedWriter(fileR);
+            buff.write("Fun35.");
+            buff.newLine();
+            buff.write("... funcionou");
+            buff.close();
+        } catch (IOException ex) {
             Logger.getLogger(escreverArquivo.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
