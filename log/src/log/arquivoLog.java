@@ -12,6 +12,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -38,14 +39,13 @@ public class arquivoLog {
             arquivo = new File("Exceptions.log");
             fileReader = new FileReader(arquivo);
             bufferedReader = new BufferedReader(fileReader);
-            Vetor texto = new Vector();
+            Vector texto = new Vector();
             while (bufferedReader.ready()) {
                 texto.add(bufferedReader.readLine());
             }
             fileWriter = new FileWriter(arquivo);
             buffredWriter = new BufferedWriter(fileWriter);
-            for(int i=0;i<texto.size();i++)
-            {
+            for (int i = 0; i < texto.size(); i++) {
                 buffredWriter.write(texto.get(i).toString());
                 buffredWriter.newLine();
             }
@@ -59,14 +59,14 @@ public class arquivoLog {
                 escreverLog(erros);
 
             } catch (IOException ex1) {
+                System.out.println("Erro de conclusão, o arquivo não pode ser concluido");
                 System.exit(0);
 
             }
         } catch (IOException er) {
+            System.out.println("Erro de conclusão, o arquivo não pode ser concluido");
             System.exit(0);
         }
     }
-
-}
 
 }
