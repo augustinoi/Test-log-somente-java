@@ -1,0 +1,75 @@
+body {
+text-align:center;
+	background-color: aqua;
+}
+
+  img {
+    
+    position:absolute;
+	top:0px;
+	left:0px;
+	 box-shadow: 3px 3px 3px  #888888;
+
+}
+
+
+#BANNER {
+
+
+
+	padding: 100px;
+	height: 78px;
+	width:500px;
+
+	margin: auto;
+	position: relative;
+    
+  
+	}
+
+	
+#BUSCA {
+	text-align:left;
+	padding:10px;
+	height: 138px;
+	width: 204px;
+
+	float: right;
+	
+	left: 800px;
+	top: 481px;
+
+
+	}
+
+		
+#AREA_RESTRITA {
+	
+	background-color: white ;
+	text-align:left;
+    margin:10px;
+	padding:10px;
+	height: 180px;
+	width: 204px;
+
+	float: right;
+	 box-shadow: 3px 3px 3px  #888888;
+	 border-radius: 3px;
+	}
+
+	
+#POSTAGENS {
+    border-left: 6px solid LightBlue ;
+    background-color: Lavender ;
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	height: 810px;
+	width: 750px;
+	position:relative;
+
+	
+	}
+	
+	

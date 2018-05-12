@@ -1,0 +1,251 @@
+
+/*-----------------------------------------------TELA DE FUNDO*/
+body {
+text-align:center;
+	background-color: aqua;
+}
+/*-----------------------------------------------LOGO*/
+
+div.banner table,td,th {
+
+
+left:0px;
+top:0px;
+	
+ 
+ 
+	}
+
+div.banner {
+
+ 
+left: 100px;
+	padding: 0px;
+	height:300px;
+	width:850px;
+	margin: auto;
+	position: float;
+ 
+ 
+	}
+/*----------------------------------------------- BUSCA*/	
+div.busca input[type=submit] {
+    background-color: LightGrey  ;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+	
+div.busca {
+
+	text-align:left;
+	padding:10px;
+	height: 138px;
+	width: 204px;
+
+	float: right;
+	
+	left: 800px;
+	top: 481px;
+
+
+	}
+div.busca  input[type=text] {
+    width: relative
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+div.busca  input [type=text]:focus {
+    width: 100%;
+}
+
+td.blue {
+  background-color: Aquamarine ;
+  height: relative;
+  border-radius: 3px;
+}
+	
+/*-----------------------------------------------MENU (LOGIN/LINKS)*/	
+div.menu {
+	
+	background-color: GhostWhite  ;
+	text-align:left;
+   
+	padding:10px;
+	height: relative;
+	width: 230px;
+	float: right;
+	box-shadow: 3px 3px 3px  #888888;
+	border-radius: 3px;
+	}
+	
+
+div.menu  a:link, a:visited {
+   font-family: "Times New Roman", Times, serif;
+	text-align:left;
+	background-color: back;
+	width: 97%;
+     padding:10px;
+     margin:0px;
+    color: black;
+    padding: auto;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+div.menu  a:hover, a:active {
+     background-color: CadetBlue  ;
+
+}
+		
+div.menu input{
+	padding:8px;
+	display:block;
+	border:none;
+	border: 0px solid black;
+	width:100%;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid LightCyan ;
+	}
+	
+
+
+/*----------------------------------------------- NOTICIAS DE POSTAGENS */	
+div.noticias  {
+    border-left: 6px solid CadetBlue  ;
+	border-top: 6px solid CadetBlue  ;
+    background-color: Lavender ;
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	height: relative;
+	width: 750px;
+	position:relative;
+	border-radius: 5px 5px 5px 30px;
+	}
+/*----------------------------------------------- NUMEROS GERAIS DO BANCO DE DADOS*/		
+div.info {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	 background-color: Cornsilk ; 
+	 width: 750px;
+	 height: relative;
+	 
+	  position:left;
+	  text-align: left;	
+   
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
+}
+div.info > table {
+ border: 0px solid black;
+}
+div.info th, td {
+  border: 0px solid black;
+   height: relative;
+}	
+
+		
+
+/*----------------------------------------------- LISTA DE INFORMAÇÃO DO BANCO DE DADOS*/
+div.mostrar {
+	
+    border-left: 6px solid CadetBlue  ;
+	border-right: 6px solid CadetBlue  ;
+    background-color: Lavender ;
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	height: relative;
+	width: 750px;
+	position:relative;
+	border-radius: 5px 5px 5px 5px;
+	}
+
+div.mostrar table {
+    border-collapse: collapse;
+    width: 100%;
+	border: 0px solid black;
+}
+div.mostrar td {
+    padding: 15px;
+    text-align: left;
+	 height: 50px;
+	   border: 0px solid black;  
+}
+div.mostrar td {
+    padding: 15px;
+    text-align: left;
+	 height: 50px;
+	   border: 0px solid black;  
+}
+div.mostrar tr:nth-child(even){
+	background-color: #f2f2f2
+	}
+	
+div.mostrar   a:link, a:visited {
+   background-color: #dddddd  ;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 5px 5px 5px 5px;
+	}
+
+/*----------------------------------------------- CADASTRO*/
+div.cadastro  {
+    border: 6px solid GhostWhite   ;
+    background-color: AliceBlue  ;
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	height: relative;
+	width: 750px;
+	position:relative;
+	border-radius: 5px 5px 5px 5px;
+	}
+	
+div.cadastro input{
+	padding:8px;
+	display:block;
+	border:none;
+	border: 0px solid black;
+	width:100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+	background-color: AliceBlue  ;
+    border-bottom: 1px solid DarkCyan    ;
+	}
+	
+div.cadastro input[type=submit] {
+    background-color: #dddddd  ;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+

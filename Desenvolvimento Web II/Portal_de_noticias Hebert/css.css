@@ -1,0 +1,94 @@
+body {
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+}
+#banner1{
+margin: 0 auto 0 auto; 
+height: 153px;
+width:980px;
+ }
+div{
+text-align: center;
+}
+#bucador{
+	float: right;
+}
+#principal{
+	text-align:left;
+	padding: 5px;
+	height: 810px;
+	width:1000px;
+	border: 1px solid gray;
+	position: relative; 
+	
+	
+}
+#principal2{
+	text-align:left;
+	padding: 5px;
+	height: 695px;
+	width:1000px;
+	border: 1px solid gray;
+	position: relative; 
+	
+}
+#banner {
+	margin: 5px;
+	padding:5px;
+	height: 150px;
+	width:980px;
+
+
+	
+}
+#postagens{
+	margin: 5px;
+	padding:5px;
+	height: 500px;
+	width:700px;
+	border: 1px solid black;
+	float: left;
+
+	
+	
+}
+#area_restrita{
+	margin: 5px;
+	padding:15px;
+	height: 300px;
+	width:235px;
+	border: 1px solid black;
+	float: right;
+	
+	
+}
+#busca{
+	margin: 5px;
+	padding:15px;
+	height: auto;
+	width:235px;
+	border: 1px solid black;
+	float: right;
+	
+}
+#cadastro{
+	margin: 5px;
+	padding:5px;
+	height: 500px;
+	width:700px;
+	border: 1px solid black;
+	float: left;
+	
+}
+ #menu li {
+	list-style:none;
+	color: 4f2f4f;
+	text-align: center;
+	font-family: arial;
+	font-size: 12pt;
+	text-decoration: none;	
+	
+	 }
+

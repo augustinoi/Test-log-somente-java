@@ -1,0 +1,115 @@
+body {
+text-align:center;
+	background-color: aqua;
+}
+
+  img {
+    
+    position:absolute;
+	top:0px;
+	left:300px;
+	
+
+}
+table {
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    /* or, of course,
+    border: 1px solid #000;
+    */
+}
+
+#BANNER {
+
+
+left:100px;
+top:-90px;
+	padding: 100px;
+	height: 78px;
+	width:500px;
+	margin: auto;
+	position: relative;
+    horison-align: text-right;
+ 
+	}
+
+	
+#BUSCA {
+	text-align:left;
+	padding:10px;
+	height: 138px;
+	width: 204px;
+
+	float: right;
+	
+	left: 800px;
+	top: 481px;
+
+
+	}
+
+		
+#AREA_RESTRITA {
+	
+	background-color: white ;
+	text-align:left;
+    margin:10px;
+	padding:10px;
+	height: relative;
+	width: 204px;
+
+	float: right;
+	 box-shadow: 3px 3px 3px  #888888;
+	 border-radius: 3px;
+	}
+	
+	
+#MENU_DE_LINKS {
+	
+	background-color: white ;
+	text-align:left;
+    margin:10px;
+	padding:10px;
+	height: relative;
+	width: 204px;
+
+	float: right;
+	 box-shadow: 3px 3px 3px  #888888;
+	 border-radius: 3px;
+	}
+	
+#POSTAGENS {
+    border-left: 6px solid LightBlue ;
+    background-color: Lavender ;
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	height: relative;
+	width: 750px;
+	position:relative;
+
+	
+	}
+	
+	#Menu:hover, Menu:active {
+    background-color: gray;
+}
+	
+a:link, a:visited {
+	 font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    color: black;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: gray;
+}
+	
+input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}

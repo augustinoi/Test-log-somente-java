@@ -1,0 +1,72 @@
+body {
+text-align:center;
+	background-color: white;
+}
+
+
+#BANNER {
+	
+ 
+ 
+margin: 10px;
+	padding: 50px;
+	height: 150px;
+	width: 715px;
+	border: 1px solid #FFF;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+	position:relative;
+	
+	
+	}
+
+	
+#BUSCA {
+	text-align:left;
+
+	
+margin:10px;
+	padding:10px;
+	height: 138px;
+	width: 204px;
+	border: 1px solid #FFF;
+	float: right;
+	
+	left: 668px;
+	top: 481px;
+
+
+	}
+
+		
+#AREA_RESTRITA {
+	
+	text-align:left;
+    margin:10px;
+	padding:10px;
+	height: 138px;
+	width: 204px;
+	border: 1px solid #FFF;
+	float: right;
+
+
+	
+	}
+
+	
+#CONTEUDO {
+
+	
+	margin: 10px;
+	padding: 10px;
+	height: 600px;
+	width: 490px;
+	border: 1px solid #FFF;
+	float: center;
+
+	position:relative;
+
+	
+	}
